@@ -11,10 +11,10 @@ In this task, we were given an encrypted message that was XORed with a 4-byte ke
 XOR encryption is a symmetric key algorithm, which means the same key is used for both encryption and decryption. The XOR operation has a unique property:
 
 \[
-\text{Original} \oplus \text{Key} = \text{Encrypted}
+\text{Original} XOR \text{Key} = \text{Encrypted}
 \]
 \[
-\text{Encrypted} \oplus \text{Key} = \text{Original}
+\text{Encrypted} XOR \text{Key} = \text{Original}
 \]
 
 This property allowed us to retrieve the original message by applying the XOR operation with the key on the encrypted message.
